@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./test-1.css">
+    <title>TEST</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card-1">
+            <div class="create-header">
+                <div class="grp-1">
+                     <h1>Create Distributor</h1></div>
+               <div class="grp-2">
+                  <div class="btn-1"><a href="#">Save</a></div>  
+                    <div class="btn-2"><a href="#">Back</a></div>
+               </div>
+                
+            </div>
+            <div class="create-main">
+            <div class="first">
+                <div class="gst">
+                    <label for="gst" class="input-lable">GSTIN Number</label><sup>*</sup>
+                    <input type="text" class="input-text">
+                    
+                </div>
+                <div class="name">
+                    <label for="name" class="input-lable">Distributor Name</label><sup>*</sup>
+                    <input type="text" class="input-text">
+                </div>
+                <div class="cin" class="input-lable">
+                    <label for="cin">Company Registration Number (CIN)</label><sup>*</sup>
+                    <input type="text" class="input-text">
+                </div>
+                <div class="subsidary">
+                    <label for="subsidary">Subsidary</label><sup>*</sup>
+                    <select name="subsidary-selection" >
+                        <option value="none">Select</option>
+                        <option value="option-1">Joint Venture Subsidiaries</option>
+                        <option value="option-2">Wholly Owned Subsidiaries</option>
+                        <option value="option-3">Party Owned Subsidiaries</option>
+                       
+                    </select>
+                </div>
+            </div>
+            <div class="second">
+                <div class="type">
+                    <label for="type">Distributor Type</label><sup>*</sup>
+                    <select name="type-selection" >
+                        <option value="none">Select</option>
+                        <option value="option-1">Direct Distributor</option>
+                        <option value="option-2">InDirect Distributor</option>
+                        <option value="option-3">Exclusive Distributor</option>
+                        <option value="option-4">Intensive Distributor</option>
+                    </select>
+                </div>
+                <div class="price-group">
+                    <label for="price-group">Distributor Price Group</label><sup>*</sup>
+                    <select name="price-group-selection">
+                        <option value="none">Select</option>
+                        <option value="option-1">Premium</option>
+                        <option value="option-2">Skimming</option>
+                        <option value="option-3">Economy</option>
+                        <option value="option-4">Penetration</option>
+                    </select>
+                </div>
+                <div class="payment-terms">
+                    <label for="payment-terms">Payment Terms</label><sup>*</sup>
+                    <select name="payment-terms-selection">
+                        <option value="none">Select</option>
+                        <option value="option-1">Cash</option>
+                        <option value="option-2">Cheque</option>
+                        <option value="option-3">Debit Card</option>
+                        <option value="option-3">Credit Card</option>
+                    </select>
+                </div>
+                <div class="Credit-limit">
+                    <label for="Credit-limit" class="input-lable">Credit-limit</label><sup>*</sup>
+                    <input type="text" class="input-text">
+                </div>
+            </div>
+            <div class="third">
+                <div class="replacing">
+                    <label for="replacing" name="radio-option">Is Replacing esisting Distributor?</label>
+                    <div class="radio-option-div">
+                        <input type="radio" value="radio-option-yes" name="radio-option" class="radio">
+                        <label for="Yes">Yes</label>
+                        <input type="radio" value="radio-option-No" name="radio-option" class="radio">
+                        <label for="No">No</label>
+                    </div>
+                    
+                </div>
+                <div class="Lattitude">
+                    <label for="Lattitude" class="input-lable">Lattitude</label>
+                    <input type="text" class="input-text">
+                </div>
+                <div class="Longitude">
+                    <label for="Longitude" class="input-lable">Longitude</label>
+                    <input type="text" class="input-text">
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="card-2">
+            <div class="address-header">
+                <h1>Addresses</h1>
+            </div>
+            <div class="address-main">
+                <div class="fourth">
+                <div class="Address-lane1">
+                    <label for="Address-lane1">Address lane1</label><sup>*</sup>
+                    <input type="text" class="input-text">
+                </div>
+                <div class="Address-lane2">
+                    <label for="Address-lane2">Address lane2</label>
+                    <input type="text" class="input-text">
+                </div>
+                <div class="country">
+                    <label for="country">Country</label><sup>*</sup>
+                    <select name="country-selection" >
+                        <option value="none">Select</option>
+                        <option value="option-1">India</option>
+                        <option value="option-2">Uk</option>
+                        <option value="option-3">Us</option>
+                        <option value="option-4">Srilanka</option>
+                    </select>
+                </div>
+                <div class="state">
+                    <label for="state">State</label><sup>*</sup>
+                    <select name="state-selection" >
+                        <option value="none">Select</option>
+                        <option value="option-1">TamilNadu</option>
+                        <option value="option-2">Mumbai</option>
+                        <option value="option-3">Karnataka</option>
+                        <option value="option-4">Kolkata</option>
+                    </select>
+                </div>
+                <div class="city">
+                    <label for="city">City</label><sup>*</sup>
+                    <select name="type-selection" >
+                        <option value="none">Select</option>
+                        <option value="option-1">Trichy</option>
+                        <option value="option-2">Madurai</option>
+                        <option value="option-3">Chennai</option>
+                        <option value="option-4">Salem</option>
+                    </select>
+                </div>
+                <div class="postal-code">
+                    <label for="postal-code">Postal Code</label><sup>*</sup>
+                    <input type="text" class="input-text">
+                </div>
+                <div class="billing">
+                    <label for="billing">Billing</label>                        
+                    <input type="checkbox" value="billing" name="radio-option" class="checkbox">
+                </div>
+                <div class="btn-3"><a href="#">Add</a></div>
+            </div>
+               <div class="table-scroll">
+                <table class="table">
+                   
+                        <tr>
+                            <th id="head-center">Action</th>
+                            <th>Address</th>
+                            <th>country</th>
+                            <th>state</th>
+                            <th>City</th>
+                            <th>Postal Code</th>
+                            <th>Billing</th>
+                        </tr>
+                  
+                        <tr>
+                            <td class="head-center"><i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-trash"></i></td>
+                            <td>Address Lane1,Address Lane2</td>
+                            <td>India</td>
+                            <td>Karnataka</td>
+                            <td>Bangalore</td>
+                            <td>560043</td>
+                            <td>No</td>
+                        </tr>
+                        
+                </table>
+
+                <br>
+                <br>
+            </div>
+            <div >
+            
+            </div>
+            </div>
+            </div>
+    </div>
+    </div>
+</body>
+</html> 
